@@ -1,11 +1,14 @@
 import React from 'react'
+import "./App.css";
+import Header from "./Header"
 
-const StateTutorial = () => {
+function App() {
   return (
-    <div>
-      Hello there. DEV
-      </div>
+    //BEM
+    <div className='app'>
+      <Header />
+    </div>
   )
 }
 
-export default StateTutorial;
+export default App
