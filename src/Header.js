@@ -1,13 +1,14 @@
 import React from 'react';
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 function Header() {
   return (
     <div className="header">
         <img 
             className='header__logo'
-            src="https://www.doorwaysva.org/wp-content/uploads/2019/06/amazon-logo.png"
+            src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
         />
 
         <div className="header__search">
@@ -24,17 +25,44 @@ function Header() {
             <div className="header__nav">
                 <div className="header__option">
                     <span className="header__optionLineOne">
-                        Hello Fellow  
+                        Hello Guest
                     </span>
 
                     <span className="header__optionLineTwo">
-                        Sign In/Up
-                    </span>
-
-                    <span className="header__optionLineThree">
-                        Your Orders
+                        Sign In 
                     </span>
                 </div>
+
+                <div className="header__option">
+                    <span className="header__optionLineOne">
+                        Return
+                    </span>
+
+                    <span className="header__optionLineTwo">
+                        & Orders
+                    </span>
+                </div>
+
+                <div className="header__option">
+                    <span className="header__optionLineOne">
+                        Your
+                    </span>
+
+                    <span className="header__optionLineTwo">
+                        Prime
+                    </span>
+                </div>
+
+                <div className="header__optionBasket">
+                    <ShoppingBasketIcon />
+                    <div className="header__option">
+                    
+                    <span className="header__optionLineTwoheader__basketCount">
+                        0
+                    </span>
+                </div> 
+                </div>
+
             </div>
 
 
