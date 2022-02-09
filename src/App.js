@@ -2,7 +2,9 @@ import React from 'react'
 
 const StateTutorial = () => {
   return (
-    <div>Hello there</div>
+    <div>
+      Hello there. DEV
+      </div>
   )
 }
 
