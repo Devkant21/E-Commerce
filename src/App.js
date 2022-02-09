@@ -2,7 +2,7 @@ import React from 'react'
 
 const StateTutorial = () => {
   return (
-    <div>StateTutorial</div>
+    <div>Hello there</div>
   )
 }
 
