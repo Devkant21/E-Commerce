@@ -1,4 +1,4 @@
-# React Builds + GitHub Actions
+# E-Commerce Builds
 
 Testing GitHub actions with the React Projects
 
