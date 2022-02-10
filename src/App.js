@@ -9,11 +9,19 @@ function App() {
     //BEM
     <Router>
       <div className='app'>
-        <Header />
-        <Home />
+        <Switch>
+
+          <Route path="/checkout">
+            <Header />
+                <h1>Checkout Page</h1>
+            <Home />
+          </Route>
+        
+        </Switch>
+        
       </div>
     </Router>
   )
 }
 
-export default App
+export default App;
